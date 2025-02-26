@@ -1,8 +1,8 @@
 # 👨🏻‍💻 Porfolio para programadores y desarrolladores
 
 <div align="center">
-<a href="https://porfolio.dev/">
-<img src="./public/porfolio.webp">
+<a href="https://aymara88.github.io/portfolio.dev">
+<img src="./public/portfolio.png">
 </a>
 <p></p>
 </div>
