@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
+
+.logo {
+    font-family: "Atkinson Hyperlegible Mono", serif, monospace;
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+    color: #333; /* Default text color */
+}
+
+/* Teal color for brackets */
+.logo .brackets {
+    color: #008080;
+}
+
+/* Light & Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    .logo {
+        color: white;
+    }
+}
