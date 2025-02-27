@@ -1,5 +1,6 @@
 ---
 import ThemeToggle from "./ThemeToggle.astro"
+import '../styles/header.css'
 
 const navItems = [
   {
@@ -28,6 +29,11 @@ const navItems = [
 <header
   class="fixed top-0 z-10 flex items-center justify-center w-full mx-auto mt-2"
 >
+<!-- Example HTML or Astro -->
+<div class="bg-primary text-white p-4">
+  This is a div with the primary background color.
+</div>
+
   <nav
     class="flex px-3 text-sm font-medium rounded-full text-gray-600 dark:text-gray-200 justify-center items-center"
   >
@@ -87,24 +93,3 @@ const navItems = [
     }
   })
 </script>
-
-<style>
-  nav {
-    animation: nav-shadown 1s linear both;
-    animation-timeline: scroll();
-    animation-range: 0 100px;
-  }
-
-  nav {
-    @apply dark:bg-gray-800/90 bg-white/50;
-  }
-
-  @keyframes nav-shadown {
-    0% {
-      @apply dark:bg-gray-800/0 bg-white/0;
-    }
-    to {
-      @apply shadow-lg ring-1 backdrop-blur ring-white/10;
-    }
-  }
-</style>
